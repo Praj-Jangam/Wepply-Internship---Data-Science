@@ -5,7 +5,7 @@
 This project builds a low-cost CV optimization system using an open-source LLM (DeepSeek-7B + QLoRA).  
 The goal is to improve CV content for a specific job description while keeping everything truthful and ATS-friendly.
 
-## What the tool does (in simple words)
+## What the tool does 
 You paste a CV section + a job description, and the model returns:
 - improved CV bullets and/or summary
 - job-relevant keywords used
