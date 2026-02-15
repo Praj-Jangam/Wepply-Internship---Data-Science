@@ -1,1 +1,113 @@
+[
+  {
+    "id": "v0_000211",
+    "task": "bullet_rewrite",
+    "role_target": "Data Analyst",
+    "seniority": "Graduate",
+    "industry": "Retail",
+    "input": {
+      "cv_text": "SUMMARY: Graduate interested in analytics.\nEXPERIENCE BULLETS:\n- Updated weekly spreadsheet.\n- Checked entries for errors.\n- Shared update with supervisor.\nSKILLS: Excel, Communication, Attention to detail",
+      "job_description": "",
+      "constraints": { "no_hallucination": true, "uk_spelling": true, "min_bullets": 3, "max_bullets": 4, "must_not_add_tools": true, "must_not_add_metrics": true }
+    },
+    "output": {
+      "optimized_summary": "Graduate candidate with experience maintaining Excel spreadsheets, checking entries for accuracy, and communicating clear weekly updates to a supervisor.",
+      "optimized_bullets": [
+        "Updated a weekly Excel spreadsheet using a consistent structure to support tracking and review.",
+        "Checked entries for errors and corrected basic issues to improve accuracy before sharing.",
+        "Shared weekly updates clearly with a supervisor to support follow-up and planning."
+      ],
+      "keywords_used": ["Excel", "weekly updates", "accuracy", "tracking", "communication"],
+      "warnings": ["If possible, add what the spreadsheet tracked (sales, stock, staffing) without inventing details."]
+    }
+  },
+  {
+    "id": "v0_000212",
+    "task": "jd_match",
+    "role_target": "Junior Reporting Analyst",
+    "seniority": "Graduate",
+    "industry": "Finance",
+    "input": {
+      "cv_text": "SUMMARY: Graduate with Excel reporting.\nEXPERIENCE BULLETS:\n- Prepared weekly report.\n- Created charts.\n- Sent summary to team.\nSKILLS: Excel, Communication",
+      "job_description": "Junior Reporting Analyst: weekly reporting, chart updates in Excel, and communicating summaries to stakeholders.",
+      "constraints": { "no_hallucination": true, "uk_spelling": true, "min_bullets": 3, "max_bullets": 5, "must_not_add_tools": true, "must_not_add_metrics": true }
+    },
+    "output": {
+      "optimized_summary": "Graduate reporting candidate with experience supporting weekly reporting in Excel, creating charts for clarity, and communicating concise summaries to stakeholders.",
+      "optimized_bullets": [
+        "Prepared weekly reporting in Excel using a consistent structure for review and sharing.",
+        "Created Excel charts to present trends clearly and support reporting discussions.",
+        "Communicated concise summaries to stakeholders to support alignment and follow-up."
+      ],
+      "keywords_used": ["weekly reporting", "Excel", "charts", "summaries", "stakeholders"],
+      "warnings": ["If possible, add what the weekly report covered (performance, activity) without inventing details."]
+    }
+  },
+  {
+    "id": "v0_000213",
+    "task": "ats_optimize",
+    "role_target": "Data Quality Assistant",
+    "seniority": "Graduate",
+    "industry": "Healthcare",
+    "input": {
+      "cv_text": "SUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Reviewed records.\n- Corrected mistakes.\n- Updated files.\nSKILLS: Accuracy, Documentation, Attention to detail",
+      "job_description": "Data Quality Assistant: data quality checks, correcting errors, and maintaining accurate records with documentation.",
+      "constraints": { "no_hallucination": true, "uk_spelling": true, "min_bullets": 3, "max_bullets": 4, "must_not_add_tools": true, "must_not_add_metrics": true }
+    },
+    "output": {
+      "optimized_summary": "Graduate data quality candidate with experience completing data quality checks, correcting errors, and maintaining accurate records with clear documentation.",
+      "optimized_bullets": [
+        "Completed data quality checks by reviewing records carefully for errors and missing information.",
+        "Corrected mistakes promptly to improve accuracy and reliability of records.",
+        "Updated files consistently and maintained clear documentation to support ongoing use."
+      ],
+      "keywords_used": ["data quality checks", "correcting errors", "accurate records", "documentation", "accuracy"],
+      "warnings": ["If possible, add what types of records were reviewed (without sensitive details)."]
+    }
+  },
+  {
+    "id": "v0_000214",
+    "task": "bullet_rewrite",
+    "role_target": "Data Coordinator",
+    "seniority": "Graduate",
+    "industry": "Public Sector",
+    "input": {
+      "cv_text": "SUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Logged requests.\n- Updated records.\n- Followed procedure.\nSKILLS: Documentation, Accuracy",
+      "job_description": "",
+      "constraints": { "no_hallucination": true, "uk_spelling": true, "min_bullets": 3, "max_bullets": 3, "must_not_add_tools": true, "must_not_add_metrics": true }
+    },
+    "output": {
+      "optimized_summary": "Graduate candidate with experience logging requests, updating records accurately, and following procedures with clear documentation.",
+      "optimized_bullets": [
+        "Logged requests in a consistent format to support tracking and timely follow-up.",
+        "Updated records accurately to keep information current and reliable for review.",
+        "Followed procedures consistently and maintained clear documentation for accountability."
+      ],
+      "keywords_used": ["request logging", "record updates", "procedures", "documentation", "tracking"],
+      "warnings": ["If possible, add what types of requests were logged (without sensitive details)."]
+    }
+  },
+  {
+    "id": "v0_000215",
+    "task": "jd_match",
+    "role_target": "Operations Data Analyst",
+    "seniority": "Graduate",
+    "industry": "Logistics",
+    "input": {
+      "cv_text": "SUMMARY: Graduate with Excel.\nEXPERIENCE BULLETS:\n- Maintained tracker.\n- Sent daily update.\n- Flagged issues.\nSKILLS: Excel, Communication, Attention to detail",
+      "job_description": "Operations Data Analyst: Excel tracker maintenance, daily operational updates, and flagging exceptions clearly.",
+      "constraints": { "no_hallucination": true, "uk_spelling": true, "min_bullets": 3, "max_bullets": 5, "must_not_add_tools": true, "must_not_add_metrics": true }
+    },
+    "output": {
+      "optimized_summary": "Graduate operations data analyst candidate with experience maintaining Excel trackers, sending daily operational updates, and flagging exceptions clearly for follow-up.",
+      "optimized_bullets": [
+        "Maintained an Excel tracker by updating entries consistently to support operations visibility.",
+        "Sent daily operational updates in a clear format to support coordination and action.",
+        "Flagged exceptions clearly to support timely follow-up and resolution."
+      ],
+      "keywords_used": ["Excel tracker", "daily operational updates", "flagging exceptions", "operations", "follow-up"],
+      "warnings": ["If possible, add what the tracker captured (deliveries, incidents) without inventing details."]
+    }
+  },
+  
 
