@@ -1,0 +1,120 @@
+[
+  {
+    "eval_id": "eval_001",
+    "task": "jd_match",
+    "industry": "Banking",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with SQL and Excel experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for reports.\n- Updated Excel trackers.\n- Checked results for errors.\nSKILLS: SQL, Excel, Communication, Attention to detail",
+      "job_description": "Junior Data Analyst role: SQL querying, data validation, weekly KPI reporting, and stakeholder communication.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 4 }
+    }
+  },
+  {
+    "eval_id": "eval_002",
+    "task": "ats_optimize",
+    "industry": "Healthcare",
+    "role_target": "Data Quality Assistant",
+    "input": {
+      "cv_text": "ROLE: Data Quality Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Reviewed records.\n- Removed duplicates.\n- Corrected errors.\nSKILLS: Accuracy, Documentation, Attention to detail",
+      "job_description": "Data Quality Assistant: record review, duplicate removal, error correction, documentation, and maintaining clean reporting inputs.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 3 }
+    }
+  },
+  {
+    "eval_id": "eval_003",
+    "task": "bullet_rewrite",
+    "industry": "Retail",
+    "role_target": "Reporting Assistant",
+    "input": {
+      "cv_text": "ROLE: Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Made weekly report.\n- Updated spreadsheet.\n- Sent update to manager.\nSKILLS: Excel, Communication, Organisation",
+      "job_description": "",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 4 }
+    }
+  },
+  {
+    "eval_id": "eval_004",
+    "task": "jd_match",
+    "industry": "E-commerce",
+    "role_target": "Junior BI Assistant",
+    "input": {
+      "cv_text": "ROLE: Junior BI Assistant\nCV:\nSUMMARY: Graduate with dashboard experience.\nEXPERIENCE BULLETS:\n- Built Power BI visuals.\n- Updated dashboard views.\n- Shared weekly summary.\nSKILLS: Power BI, Excel, Communication",
+      "job_description": "Junior BI Assistant: Power BI dashboarding, KPI visualisation, weekly reporting, and communicating insights to stakeholders.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 4 }
+    }
+  },
+  {
+    "eval_id": "eval_005",
+    "task": "ats_optimize",
+    "industry": "Public Sector",
+    "role_target": "Data Administrator",
+    "input": {
+      "cv_text": "ROLE: Data Administrator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Logged requests.\n- Updated records.\n- Filed documents.\nSKILLS: Documentation, Accuracy, Organisation",
+      "job_description": "Data Administrator: request logging, accurate record maintenance, documentation management, and audit-ready workflows.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 3 }
+    }
+  },
+  {
+    "eval_id": "eval_006",
+    "task": "jd_match",
+    "industry": "Telecommunications",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with Excel experience.\nEXPERIENCE BULLETS:\n- Updated usage sheet.\n- Checked entries for missing fields.\n- Shared weekly summary.\nSKILLS: Excel, Accuracy, Communication",
+      "job_description": "Junior Data Analyst: Excel tracking, data quality checks, weekly reporting, and stakeholder updates.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 4 }
+    }
+  },
+  {
+    "eval_id": "eval_007",
+    "task": "bullet_rewrite",
+    "industry": "Hospitality",
+    "role_target": "Operations Reporting Assistant",
+    "input": {
+      "cv_text": "ROLE: Operations Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated daily log.\n- Flagged issues.\n- Shared daily status.\nSKILLS: Organisation, Communication, Attention to detail",
+      "job_description": "",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 3 }
+    }
+  },
+  {
+    "eval_id": "eval_008",
+    "task": "ats_optimize",
+    "industry": "Logistics",
+    "role_target": "Operations Coordinator",
+    "input": {
+      "cv_text": "ROLE: Operations Coordinator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated tracker.\n- Flagged delays.\n- Shared daily update.\nSKILLS: Organisation, Communication, Attention to detail",
+      "job_description": "Operations Coordinator: tracker updates, exception handling, daily updates, and coordinating with stakeholders.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 3 }
+    }
+  },
+  {
+    "eval_id": "eval_009",
+    "task": "jd_match",
+    "industry": "Technology",
+    "role_target": "Research Assistant",
+    "input": {
+      "cv_text": "ROLE: Research Assistant\nCV:\nSUMMARY: Graduate with Python.\nPROJECT BULLETS:\n- Cleaned data in Python.\n- Checked missing values.\n- Documented steps.\nSKILLS: Python, Documentation, Attention to detail",
+      "job_description": "Research Assistant: Python data cleaning, missing value checks, and documenting repeatable analysis steps.",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 4 }
+    }
+  },
+  {
+    "eval_id": "eval_010",
+    "task": "bullet_rewrite",
+    "industry": "Legal Services",
+    "role_target": "Data Administrator",
+    "input": {
+      "cv_text": "ROLE: Data Administrator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Logged requests.\n- Updated records.\n- Kept documentation.\nSKILLS: Documentation, Accuracy, Communication",
+      "job_description": "",
+      "constraints": { "no_hallucination": true, "min_bullets": 3, "max_bullets": 3 }
+    }
+  },
+
+  {
+    "eval_id": "eval_011",
+    "task": "jd_match",
+    "industry": "Manufacturing",
+    "role_target": "Reporting Assistant",
+    "input": {
+      "cv_text": "ROLE: Reporting Assistant\nCV:\nSUMMARY: Graduate with Excel.\nEXPERIENCE BULLETS:\n- Updated production sheet.\n- Checked entries.\n- Shared weekly summary.\nSKILLS: Excel, Accuracy, Communication",
+      "job_description": "Reporting Assistant: Excel reporting, checking
