@@ -1,0 +1,477 @@
+[
+  {
+    "eval_id": "eval_001",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Banking",
+      "role_target": "Junior Data Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior Data Analyst (UK, Banking).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with SQL and Excel experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for reports.\n- Updated Excel trackers.\n- Checked results for errors.\nSKILLS: SQL, Excel, Communication, Attention to detail",
+      "job_description": "Junior Data Analyst role: SQL querying, data validation, weekly KPI reporting, and stakeholder communication."
+    }
+  },
+  {
+    "eval_id": "eval_002",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "Healthcare",
+      "role_target": "Data Quality Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Data Quality Assistant (UK, Healthcare).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Data Quality Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Reviewed records.\n- Removed duplicates.\n- Corrected errors.\nSKILLS: Accuracy, Documentation, Attention to detail",
+      "job_description": "Data Quality Assistant: record review, duplicate removal, error correction, documentation, and maintaining clean reporting inputs."
+    }
+  },
+  {
+    "eval_id": "eval_003",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Retail",
+      "role_target": "Reporting Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Reporting Assistant (UK, Retail).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Made weekly report.\n- Updated spreadsheet.\n- Sent update to manager.\nSKILLS: Excel, Communication, Organisation",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_004",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "E-commerce",
+      "role_target": "Junior BI Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior BI Assistant (UK, E-commerce).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior BI Assistant\nCV:\nSUMMARY: Graduate with dashboard experience.\nEXPERIENCE BULLETS:\n- Built Power BI visuals.\n- Updated dashboard views.\n- Shared weekly summary.\nSKILLS: Power BI, Excel, Communication",
+      "job_description": "Junior BI Assistant: Power BI dashboarding, KPI visualisation, weekly reporting, and communicating insights to stakeholders."
+    }
+  },
+  {
+    "eval_id": "eval_005",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "Public Sector",
+      "role_target": "Data Administrator",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Data Administrator (UK, Public Sector).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Data Administrator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Logged requests.\n- Updated records.\n- Filed documents.\nSKILLS: Documentation, Accuracy, Organisation",
+      "job_description": "Data Administrator: request logging, accurate record maintenance, documentation management, and audit-ready workflows."
+    }
+  },
+  {
+    "eval_id": "eval_006",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Telecommunications",
+      "role_target": "Junior Data Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior Data Analyst (UK, Telecommunications).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with Excel experience.\nEXPERIENCE BULLETS:\n- Updated usage sheet.\n- Checked entries for missing fields.\n- Shared weekly summary.\nSKILLS: Excel, Accuracy, Communication",
+      "job_description": "Junior Data Analyst: Excel tracking, data quality checks, weekly reporting, and stakeholder updates."
+    }
+  },
+  {
+    "eval_id": "eval_007",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Hospitality",
+      "role_target": "Operations Reporting Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Operations Reporting Assistant (UK, Hospitality).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Operations Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated daily log.\n- Flagged issues.\n- Shared daily status.\nSKILLS: Organisation, Communication, Attention to detail",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_008",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "Logistics",
+      "role_target": "Operations Coordinator",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Operations Coordinator (UK, Logistics).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Operations Coordinator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated tracker.\n- Flagged delays.\n- Shared daily update.\nSKILLS: Organisation, Communication, Attention to detail",
+      "job_description": "Operations Coordinator: tracker updates, exception handling, daily updates, and coordinating with stakeholders."
+    }
+  },
+  {
+    "eval_id": "eval_009",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Technology",
+      "role_target": "Research Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Research Assistant (UK, Technology).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Research Assistant\nCV:\nSUMMARY: Graduate with Python.\nPROJECT BULLETS:\n- Cleaned data in Python.\n- Checked missing values.\n- Documented steps.\nSKILLS: Python, Documentation, Attention to detail",
+      "job_description": "Research Assistant: Python data cleaning, missing value checks, and documenting repeatable analysis steps."
+    }
+  },
+  {
+    "eval_id": "eval_010",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Legal Services",
+      "role_target": "Data Administrator",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Data Administrator (UK, Legal Services).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Data Administrator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Logged requests.\n- Updated records.\n- Kept documentation.\nSKILLS: Documentation, Accuracy, Communication",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_011",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Manufacturing",
+      "role_target": "Reporting Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Reporting Assistant (UK, Manufacturing).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Reporting Assistant\nCV:\nSUMMARY: Graduate with Excel.\nEXPERIENCE BULLETS:\n- Updated production sheet.\n- Checked entries.\n- Shared weekly summary.\nSKILLS: Excel, Accuracy, Communication",
+      "job_description": "Reporting Assistant: Excel reporting, accuracy checks, weekly summaries, and clear updates to stakeholders."
+    }
+  },
+  {
+    "eval_id": "eval_012",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "Insurance",
+      "role_target": "Data Entry Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Data Entry Assistant (UK, Insurance).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Data Entry Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Entered data.\n- Checked details.\n- Filed documents.\nSKILLS: Accuracy, Attention to detail, Organisation",
+      "job_description": "Data Entry Assistant: accurate data entry, detail checks, and organised documentation management."
+    }
+  },
+  {
+    "eval_id": "eval_013",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Utilities",
+      "role_target": "Data Quality Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Data Quality Assistant (UK, Utilities).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Data Quality Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Reviewed records.\n- Corrected errors.\n- Updated spreadsheet.\nSKILLS: Accuracy, Documentation, Attention to detail",
+      "job_description": "Data Quality Assistant: record review, error correction, maintaining clean spreadsheets, and documentation for traceability."
+    }
+  },
+  {
+    "eval_id": "eval_014",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Travel",
+      "role_target": "Reporting Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Reporting Assistant (UK, Travel).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated booking sheet.\n- Checked details.\n- Shared weekly update.\nSKILLS: Organisation, Accuracy, Communication",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_015",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Higher Education",
+      "role_target": "Junior Data Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior Data Analyst (UK, Higher Education).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated attendance sheet.\n- Checked entries.\n- Shared weekly summary.\nSKILLS: Excel, Accuracy, Communication",
+      "job_description": "Junior Data Analyst: Excel tracking, accuracy checks, weekly reporting, and stakeholder communication."
+    }
+  },
+  {
+    "eval_id": "eval_016",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "Media",
+      "role_target": "Junior Reporting Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Junior Reporting Analyst (UK, Media).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Junior Reporting Analyst\nCV:\nSUMMARY: Graduate with Excel.\nEXPERIENCE BULLETS:\n- Collected weekly figures.\n- Updated chart.\n- Shared summary.\nSKILLS: Excel, Communication, Organisation",
+      "job_description": "Junior Reporting Analyst: weekly reporting, chart updates, and concise summaries for stakeholders."
+    }
+  },
+  {
+    "eval_id": "eval_017",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Construction",
+      "role_target": "Project Support Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Project Support Assistant (UK, Construction).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Project Support Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Took meeting notes.\n- Updated action list.\n- Shared progress update.\nSKILLS: Organisation, Communication, Attention to detail",
+      "job_description": "Project Support Assistant: meeting notes, action tracking, and clear progress updates to support delivery."
+    }
+  },
+  {
+    "eval_id": "eval_018",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Non-profit",
+      "role_target": "Data Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Data Assistant (UK, Non-profit).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Data Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Organised survey responses.\n- Removed duplicates.\n- Shared cleaned list.\nSKILLS: Organisation, Attention to detail, Communication",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_019",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "Real Estate",
+      "role_target": "Reporting Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Reporting Assistant (UK, Real Estate).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated listing tracker.\n- Checked details.\n- Shared weekly update.\nSKILLS: Organisation, Accuracy, Communication",
+      "job_description": "Reporting Assistant: tracker maintenance, accuracy checks, weekly reporting updates, and stakeholder communication."
+    }
+  },
+  {
+    "eval_id": "eval_020",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Food & Beverage",
+      "role_target": "Junior Data Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior Data Analyst (UK, Food & Beverage).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with Excel.\nEXPERIENCE BULLETS:\n- Updated sales sheet.\n- Checked entries.\n- Shared weekly summary.\nSKILLS: Excel, Accuracy, Communication",
+      "job_description": "Junior Data Analyst: Excel reporting, accuracy checks, weekly KPI summaries, and clear stakeholder updates."
+    }
+  },
+  {
+    "eval_id": "eval_021",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Energy",
+      "role_target": "Operations Reporting Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Operations Reporting Assistant (UK, Energy).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Operations Reporting Assistant\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Updated log.\n- Flagged issues.\n- Shared daily update.\nSKILLS: Organisation, Communication, Attention to detail",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_022",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "FinTech",
+      "role_target": "Junior Data Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior Data Analyst (UK, FinTech).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with SQL.\nEXPERIENCE BULLETS:\n- Pulled data using SQL for reports.\n- Checked results for inconsistencies.\n- Shared report summary.\nSKILLS: SQL, Communication, Attention to detail",
+      "job_description": "Junior Data Analyst: SQL data extraction, basic validation checks, reporting, and communicating insights to stakeholders."
+    }
+  },
+  {
+    "eval_id": "eval_023",
+    "task": "ats_keywords",
+    "metadata": {
+      "industry": "E-commerce",
+      "role_target": "Junior BI Assistant",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Junior BI Assistant (UK, E-commerce).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Keywords grouped into Tools / Methods / Domain, plus short placement suggestions (where to include them in Summary / Skills / Experience).",
+    "input": {
+      "cv_text": "ROLE: Junior BI Assistant\nCV:\nSUMMARY: Graduate with Power BI.\nEXPERIENCE BULLETS:\n- Built dashboard.\n- Updated visuals.\n- Shared weekly update.\nSKILLS: Power BI, Communication, Organisation",
+      "job_description": "Junior BI Assistant: Power BI dashboards, KPI visualisation, weekly reporting, and stakeholder communication."
+    }
+  },
+  {
+    "eval_id": "eval_024",
+    "task": "bullet_rewrite",
+    "metadata": {
+      "industry": "Public Sector",
+      "role_target": "Data Administrator",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 3
+      }
+    },
+    "instruction": "Target role: Graduate Data Administrator (UK, Public Sector).\nIf a Job Description is provided, use it to tailor; if it is blank, optimise generally for the target role.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: 4–6 bullet points. Start each bullet with an action verb. Keep tense consistent and concise.",
+    "input": {
+      "cv_text": "ROLE: Data Administrator\nCV:\nSUMMARY: Graduate.\nEXPERIENCE BULLETS:\n- Logged requests.\n- Updated records.\n- Filed documents.\nSKILLS: Documentation, Accuracy, Organisation",
+      "job_description": ""
+    }
+  },
+  {
+    "eval_id": "eval_025",
+    "task": "jd_match",
+    "metadata": {
+      "industry": "Technology",
+      "role_target": "Junior Data Analyst",
+      "locale": "UK",
+      "constraints": {
+        "no_hallucination": true,
+        "min_bullets": 3,
+        "max_bullets": 4
+      }
+    },
+    "instruction": "Target role: Graduate Junior Data Analyst (UK, Technology).\nUse the Job Description as the source of truth for tailoring.\nConstraints: Use UK English. Do not invent metrics, tools, employers, projects, or achievements. Do not add skills/tools that aren’t present in the CV (you may rephrase). Keep claims truthful and close to the input.\nOutput format: Matches (bullets), Gaps (bullets), Suggestions (3–5 tailored bullet rewrites that only use CV facts).",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with Excel and Power BI.\nEXPERIENCE BULLETS:\n- Updated Excel tracker.\n- Built Power BI visuals.\n- Shared weekly summary.\nSKILLS: Excel, Power BI, Communication, Attention to detail",
+      "job_description": "Junior Data Analyst: Excel tracking, Power BI dashboard reporting, weekly summaries, and stakeholder communication."
+    }
+  }
+]
