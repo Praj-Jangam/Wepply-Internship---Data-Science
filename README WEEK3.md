@@ -1,4 +1,4 @@
-# CV Optimisation — Week 3 Inference Demo
+# CV Optimisation - Week 3 Inference Demo
 
 This repository contains a lightweight, reproducible inference demo for CV optimisation tasks using a Hugging Face model and a fixed evaluation prompt set.
 
