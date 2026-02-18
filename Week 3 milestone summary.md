@@ -1,4 +1,4 @@
-# Week 3 milestone summary (Person B — Data / Dev Lead)
+# Week 3 milestone summary 
 
 ## Deliverables shipped
 - **Colab inference demo**: notebook runs inference over the eval prompt set and saves outputs.
