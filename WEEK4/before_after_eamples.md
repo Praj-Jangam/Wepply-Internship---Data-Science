@@ -1,5 +1,4 @@
 # Before/After Examples (Week 4)
-These examples are taken from the Week 3 baseline inference outputs and scored using the Week 4 rubric.
 Selected: **3 strongest** + **3 weakest** (from 24 parsed cases).
 
 ---
