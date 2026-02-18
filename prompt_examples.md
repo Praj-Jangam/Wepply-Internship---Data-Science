@@ -140,7 +140,7 @@ JSON:
 
 ---
 
-## 4) Task: `summary_rewrite` (JD optional but recommended)
+## 4) Task: `summary_rewrite` 
 
 **Use when:** you want a short summary + key skills, aligned to a role, without inventing experience.
 
