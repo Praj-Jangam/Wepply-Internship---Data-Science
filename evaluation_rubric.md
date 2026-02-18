@@ -54,9 +54,4 @@ Measures whether the output stays within CV facts.
 - `generic` - output is generic and not role/JD aligned
 - `ok` - no major issues detected
 
----
 
-## Total score
-Total score = A + B + C + D (**/8**)
-
-Date generated: 2026-02-18
