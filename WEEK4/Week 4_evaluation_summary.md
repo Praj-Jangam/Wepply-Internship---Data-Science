@@ -1,12 +1,5 @@
 # Week 4 Evaluation Summary 
 
-## Setup
-- **Eval set:** eval_prompts_v1.json (25 cases)
-- **Outputs evaluated:** eval_outputs_3.json (25 cases)
-- **Model:** TinyLlama (Week 3 inference baseline)
-- **Scoring:** 0–2 rubric across Keyword coverage, Role relevance, Clarity, Faithfulness (**/8 total**) + Format/Constraints checks  
-- **Scoring method:** auto-assisted heuristic scoring to produce a benchmark quickly.
-
 ---
 
 ## Results snapshot
@@ -35,7 +28,7 @@ What this suggests:
 
 ---
 
-## Suggested data & prompt improvements (Person B recommendations)
+## Suggested data & prompt improvements 
 1) **Add more “CV-only facts” negatives**  
    Include training examples where the correct output explicitly warns: “JD requests X, but CV doesn’t support it, so not added.”
 
@@ -54,8 +47,3 @@ What this suggests:
 
 ---
 
-## Files produced
-- `evaluation_rubric.md`
-- `manual_eval_results.csv`
-- `before_after_examples.md`
-- `week4_evaluation_summary.md`
