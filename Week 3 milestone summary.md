@@ -16,7 +16,3 @@
 - Demo prioritises reproducibility over model quality (small model = occasional formatting failures).
 - JSON parsing is best-effort; a “repair retry” is used to convert near-JSON outputs into valid JSON.
 
-## Next steps (Week 4 ideas)
-- Add schema validation (strings-only lists) + strict enforcement
-- Add scoring rubric + comparison across prompt versions
-- Swap to a stronger instruction model for higher-quality outputs
