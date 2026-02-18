@@ -1,7 +1,7 @@
-# Prompt Templates (v2) — CV Optimisation
+# Prompt Templates (v2) - CV Optimisation
 
 These templates are designed to be **stable for JSON parsing** and to reduce hallucinations.
-They work for both Colab demo and local script (`src/run_inference.py`).
+
 
 ## Global rules (use in every prompt)
 - UK English
