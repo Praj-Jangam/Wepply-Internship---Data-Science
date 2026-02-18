@@ -1,11 +1,9 @@
 # Final Demo Prompts (Week 5)
 
-These are polished, copy/paste demo prompts for a live walkthrough.
-Use them with your inference notebook or in the HF space.
 
 ---
 
-## Demo 1 — JD Match (clear “Matches / Gaps / Suggestions”)
+## Demo 1 - JD Match (clear “Matches / Gaps / Suggestions”)
 
 ```text
 You are a CV optimisation assistant. Use UK English.
@@ -38,7 +36,7 @@ JSON:
 
 ---
 
-## Demo 2 — ATS Keywords (JD-conditioned, CV-grounded)
+## Demo 2 - ATS Keywords (JD-conditioned, CV-grounded)
 
 ```text
 You are a CV optimisation assistant. Use UK English.
@@ -69,7 +67,7 @@ JSON:
 
 ---
 
-## Demo 3 — Bullet Rewrite (clean bullets, no invented impact)
+## Demo 3 - Bullet Rewrite (clean bullets, no invented impact)
 
 ```text
 You are a CV optimisation assistant. Use UK English.
