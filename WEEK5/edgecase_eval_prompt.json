@@ -1,0 +1,542 @@
+[
+  {
+    "eval_id": "edge_001",
+    "task": "jd_match",
+    "industry": "Retail",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Graduate Data Analyst\nCV:\nSUMMARY: Graduate seeking entry-level analytics role.\nEXPERIENCE BULLETS:\n- Helped with weekly reporting.\nSKILLS: Excel",
+      "job_description": "Graduate Data Analyst: SQL, Excel, KPI reporting, data validation, Power BI preferred, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_002",
+    "task": "bullet_rewrite",
+    "industry": "Healthcare",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Career changer from customer service into analytics.\nEXPERIENCE BULLETS:\n- Handled customer queries and resolved issues.\n- Maintained spreadsheets to track cases.\n- Escalated complex cases to senior staff.\nSKILLS: Excel, Communication, Attention to detail",
+      "job_description": "Junior Data Analyst: reporting, data quality checks, stakeholder updates, basic SQL preferred.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_003",
+    "task": "ats_keywords",
+    "industry": "Banking",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Data Analyst\nCV:\nSUMMARY: Analyst with reporting experience using Excel and SQL.\nEXPERIENCE BULLETS:\n- Built Excel models for weekly KPI packs.\n- Wrote SQL queries for ad-hoc extracts.\n- Validated data and documented fixes.\nSKILLS: Excel, SQL, Reporting, Data validation",
+      "job_description": "Responsibilities: weekly KPI reporting, dashboard updates, stakeholder management, ad-hoc analysis.\nRequirements: SQL, Excel, Power BI/Tableau, data modelling, ETL concepts, Python, statistics, communication, attention to detail.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_004",
+    "task": "jd_match",
+    "industry": "Logistics",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Gradute with exel + SQL.\nEXPERIENCE BULLETS:\n- wrte sql querries for repots.\n- updted excel tracker.\n- cheked results for erors.\nSKILLS: SQL, Excel",
+      "job_description": "Junior Data Analyst: clean and validate data, write SQL queries, weekly reporting, communicate with stakeholders.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_005",
+    "task": "ats_keywords",
+    "industry": "Energy",
+    "role_target": "Business Analyst",
+    "input": {
+      "cv_text": "ROLE: Business Analyst\nCV:\nSUMMARY: Analyst supporting reporting and requirements gathering.\nEXPERIENCE BULLETS:\n- Produced weekly operational reports in Power BI.\n- Gathered requirements and maintained documentation.\n- Worked with stakeholders to confirm changes.\nSKILLS: Power BI, Excel, Documentation, Stakeholder management",
+      "job_description": "Business Analyst: requirements elicitation, process mapping, user stories, stakeholder workshops, Jira/Confluence preferred.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_006",
+    "task": "ats_keywords",
+    "industry": "Tech",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Data Analyst\nCV:\nSUMMARY: Analyst with Excel and SQL reporting experience.\nEXPERIENCE BULLETS:\n- Prepared weekly reports using Excel.\n- Pulled data extracts using SQL.\nSKILLS: Excel, SQL",
+      "job_description": "Data Analyst: Python, SQL, Excel, Tableau, experimentation, A/B testing, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_007",
+    "task": "summary_rewrite",
+    "industry": "Public Sector",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Graduate Data Analyst\nCV:\nSUMMARY: Graduate in Computer Science. Took a 6-month break for personal reasons.\nEXPERIENCE BULLETS:\n- University project: analysed dataset and presented findings.\nSKILLS: Python, SQL, Excel",
+      "job_description": "Graduate Data Analyst: data cleaning, basic statistics, reporting, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_008",
+    "task": "jd_match",
+    "industry": "Retail",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Marketing Assistant\nCV:\nSUMMARY: Worked in marketing with basic reporting.\nEXPERIENCE BULLETS:\n- Produced weekly campaign reports in Excel.\n- Coordinated with teams to collect updates.\nSKILLS: Excel, Communication",
+      "job_description": "Data Analyst: SQL, data validation, KPI reporting, dashboards (Power BI), stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_009",
+    "task": "bullet_rewrite",
+    "industry": "Finance",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Junior Data Analyst\nCV:\nSUMMARY: Graduate with internship experience.\nEXPERIENCE BULLETS:\n- Internship: extracted data using SQL for weekly reporting.\n- Internship: cleaned datasets and logged issues.\n- Internship: supported Power BI dashboard updates.\n- Part-time: maintained trackers and improved documentation quality.\n- Project: analysed trends and presented results.\nSKILLS: SQL, Excel, Power BI, Communication, Attention to detail",
+      "job_description": "Junior Data Analyst: reporting, dashboarding, data quality, stakeholder updates.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_010",
+    "task": "jd_match",
+    "industry": "Education",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: Data Analyst\nCV:\nSUMMARY: Analyst with SQL and Excel skills.\nEXPERIENCE BULLETS:\n- Wrote SQL queries for reports.\n- Built Excel dashboards.\nSKILLS: SQL, Excel",
+      "job_description": "Data Analyst role.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_011",
+    "task": "bullet_rewrite",
+    "industry": "Retail",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Updated Excel trackers and reconciled figures.\n- Clarified requirements with stakeholders and documented changes.\nSKILLS: Excel, Communication",
+      "job_description": "Data Analyst role in Retail: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_012",
+    "task": "bullet_rewrite",
+    "industry": "Tech",
+    "role_target": "Business Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for weekly reports.\n- Clarified requirements with stakeholders and documented changes.\nSKILLS: SQL, Communication",
+      "job_description": "Business Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication, ETL.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_013",
+    "task": "bullet_rewrite",
+    "industry": "Tech",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Clarified requirements with stakeholders and documented changes.\n- Checked outputs for errors and corrected inconsistencies.\n- Wrote SQL queries to pull data for weekly reports.\n- Updated Excel trackers and reconciled figures.\nSKILLS: Data validation, Excel, SQL, Communication",
+      "job_description": "Junior Data Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication, A/B testing.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_014",
+    "task": "bullet_rewrite",
+    "industry": "Energy",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Checked outputs for errors and corrected inconsistencies.\n- Supported dashboard updates in Power BI.\n- Updated Excel trackers and reconciled figures.\n- Wrote SQL queries to pull data for weekly reports.\nSKILLS: Data validation, Excel, Power BI, SQL",
+      "job_description": "Junior Data Analyst role in Energy: SQL, Excel, KPI reporting, data validation, stakeholder communication, A/B testing.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_015",
+    "task": "jd_match",
+    "industry": "Retail",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for weekly reports.\n- Supported dashboard updates in Power BI.\n- Updated Excel trackers and reconciled figures.\nSKILLS: Excel, Power BI, SQL",
+      "job_description": "Graduate Data Analyst role in Retail: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_016",
+    "task": "bullet_rewrite",
+    "industry": "Public Sector",
+    "role_target": "Business Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for weekly reports.\n- Checked outputs for errors and corrected inconsistencies.\n- Clarified requirements with stakeholders and documented changes.\n- Updated Excel trackers and reconciled figures.\nSKILLS: Data validation, Excel, SQL, Communication",
+      "job_description": "Business Analyst role in Public Sector: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_017",
+    "task": "jd_match",
+    "industry": "Tech",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for weekly reports.\n- Clarified requirements with stakeholders and documented changes.\n- Supported dashboard updates in Power BI.\n- Checked outputs for errors and corrected inconsistencies.\nSKILLS: Data validation, Power BI, SQL, Communication",
+      "job_description": "Junior Data Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_018",
+    "task": "bullet_rewrite",
+    "industry": "Energy",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Checked outputs for errors and corrected inconsistencies.\n- Supported dashboard updates in Power BI.\nSKILLS: Data validation, Power BI",
+      "job_description": "Junior Data Analyst role in Energy: SQL, Excel, KPI reporting, data validation, stakeholder communication, A/B testing.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_019",
+    "task": "jd_match",
+    "industry": "Banking",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Updated Excel trackers and reconciled figures.\n- Supported dashboard updates in Power BI.\n- Checked outputs for errors and corrected inconsistencies.\nSKILLS: Data validation, Excel, Power BI",
+      "job_description": "Data Analyst role in Banking: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_020",
+    "task": "bullet_rewrite",
+    "industry": "Tech",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Updated Excel trackers and reconciled figures.\n- Clarified requirements with stakeholders and documented changes.\n- Checked outputs for errors and corrected inconsistencies.\n- Supported dashboard updates in Power BI.\nSKILLS: Data validation, Excel, Power BI, Communication",
+      "job_description": "Junior Data Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication, statistics.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_021",
+    "task": "ats_keywords",
+    "industry": "Public Sector",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Updated Excel trackers and reconciled figures.\n- Wrote SQL queries to pull data for weekly reports.\nSKILLS: Excel, SQL",
+      "job_description": "Data Analyst role in Public Sector: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_022",
+    "task": "summary_rewrite",
+    "industry": "Healthcare",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Clarified requirements with stakeholders and documented changes.\n- Supported dashboard updates in Power BI.\nSKILLS: Power BI, Communication",
+      "job_description": "Graduate Data Analyst role in Healthcare: SQL, Excel, KPI reporting, data validation, stakeholder communication, Confluence.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_023",
+    "task": "summary_rewrite",
+    "industry": "Public Sector",
+    "role_target": "Business Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Supported dashboard updates in Power BI.\n- Updated Excel trackers and reconciled figures.\nSKILLS: Excel, Power BI",
+      "job_description": "Business Analyst role in Public Sector: SQL, Excel, KPI reporting, data validation, stakeholder communication, ETL.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_024",
+    "task": "jd_match",
+    "industry": "Public Sector",
+    "role_target": "Business Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Checked outputs for errors and corrected inconsistencies.\n- Supported dashboard updates in Power BI.\n- Wrote SQL queries to pull data for weekly reports.\n- Clarified requirements with stakeholders and documented changes.\nSKILLS: Data validation, Power BI, SQL, Communication",
+      "job_description": "Business Analyst role in Public Sector: SQL, Excel, KPI reporting, data validation, stakeholder communication, Python.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_025",
+    "task": "bullet_rewrite",
+    "industry": "Energy",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Updated Excel trackers and reconciled figures.\n- Checked outputs for errors and corrected inconsistencies.\nSKILLS: Data validation, Excel",
+      "job_description": "Graduate Data Analyst role in Energy: SQL, Excel, KPI reporting, data validation, stakeholder communication, Confluence.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_026",
+    "task": "summary_rewrite",
+    "industry": "Tech",
+    "role_target": "Business Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Supported dashboard updates in Power BI.\n- Wrote SQL queries to pull data for weekly reports.\n- Clarified requirements with stakeholders and documented changes.\n- Checked outputs for errors and corrected inconsistencies.\nSKILLS: Data validation, Power BI, SQL, Communication",
+      "job_description": "Business Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_027",
+    "task": "jd_match",
+    "industry": "Energy",
+    "role_target": "Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Supported dashboard updates in Power BI.\n- Checked outputs for errors and corrected inconsistencies.\nSKILLS: Data validation, Power BI",
+      "job_description": "Data Analyst role in Energy: SQL, Excel, KPI reporting, data validation, stakeholder communication, Python.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_028",
+    "task": "jd_match",
+    "industry": "Tech",
+    "role_target": "Junior Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Wrote SQL queries to pull data for weekly reports.\n- Supported dashboard updates in Power BI.\n- Checked outputs for errors and corrected inconsistencies.\n- Clarified requirements with stakeholders and documented changes.\nSKILLS: Data validation, Power BI, SQL, Communication",
+      "job_description": "Junior Data Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication, A/B testing.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_029",
+    "task": "ats_keywords",
+    "industry": "Tech",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Supported dashboard updates in Power BI.\n- Checked outputs for errors and corrected inconsistencies.\n- Wrote SQL queries to pull data for weekly reports.\n- Clarified requirements with stakeholders and documented changes.\nSKILLS: Data validation, Power BI, SQL, Communication",
+      "job_description": "Graduate Data Analyst role in Tech: SQL, Excel, KPI reporting, data validation, stakeholder communication.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  },
+  {
+    "eval_id": "edge_030",
+    "task": "jd_match",
+    "industry": "Banking",
+    "role_target": "Graduate Data Analyst",
+    "input": {
+      "cv_text": "ROLE: {role}\nCV:\nSUMMARY: Early-career candidate with reporting experience.\nEXPERIENCE BULLETS:\n- Clarified requirements with stakeholders and documented changes.\n- Wrote SQL queries to pull data for weekly reports.\nSKILLS: SQL, Communication",
+      "job_description": "Graduate Data Analyst role in Banking: SQL, Excel, KPI reporting, data validation, stakeholder communication, Confluence.",
+      "constraints": {
+        "no_hallucination": true,
+        "uk_spelling": true,
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "must_not_add_tools": true,
+        "must_not_add_metrics": true
+      }
+    }
+  }
+]
