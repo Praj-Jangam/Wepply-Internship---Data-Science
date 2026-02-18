@@ -18,7 +18,7 @@ Goal: ensure the inference notebook/script is stable under realistic and worst-c
 - Record: JSON parse success rate, time per case
 
 ### B) Edge-case run
-- Run on: `edge_case_eval_prompts_v1.json` (30 cases)
+- Run on: `edge_case_eval_prompts_v1.json` (25 cases)
 - Record:
   - JSON parse success rate
   - Most common failure tags (wrong_format / hallucination / generic / missed_keywords)
