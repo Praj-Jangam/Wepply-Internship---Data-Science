@@ -2,7 +2,7 @@
 Selected: **3 strongest** + **3 weakest** (from 24 parsed cases).
 
 ---
-## eval_001 — jd_match
+## eval_001 - jd_match
 **Total score:** 8/8 | **Tags:** ok | **Format OK:** Y | **Constraints OK:** Y
 
 ### CV (before)
@@ -53,7 +53,7 @@ Junior Data Analyst role: SQL querying, data validation, weekly KPI reporting, a
 - Missing supported JD keywords: analyst, junior
 
 ---
-## eval_011 — jd_match
+## eval_011 - jd_match
 **Total score:** 8/8 | **Tags:** ok | **Format OK:** Y | **Constraints OK:** Y
 
 ### CV (before)
@@ -109,7 +109,7 @@ Reporting Assistant: Excel reporting, accuracy checks, weekly summaries, and cle
 - No major issues detected by the heuristic checks.
 
 ---
-## eval_012 — ats_optimize
+## eval_012 - ats_optimize
 **Total score:** 8/8 | **Tags:** ok | **Format OK:** Y | **Constraints OK:** Y
 
 ### CV (before)
@@ -140,7 +140,7 @@ Data Entry Assistant: accurate data entry, detail checks, and organised document
 - Missing supported JD keywords: assistant
 
 ---
-## eval_005 — ats_optimize
+## eval_005 - ats_optimize
 **Total score:** 2/8 | **Tags:** hallucination | **Format OK:** Y | **Constraints OK:** N
 
 ### CV (before)
@@ -172,7 +172,7 @@ Data Administrator: request logging, accurate record maintenance, documentation 
 - Missing supported JD keywords: administrator, data, documentation
 
 ---
-## eval_016 — ats_optimize
+## eval_016 - ats_optimize
 **Total score:** 3/8 | **Tags:** hallucination | **Format OK:** Y | **Constraints OK:** N
 
 ### CV (before)
@@ -208,7 +208,7 @@ Junior Reporting Analyst: weekly reporting, chart updates, and concise summaries
 - Missing supported JD keywords: analyst, chart, junior, reporting, weekly
 
 ---
-## eval_002 — ats_optimize
+## eval_002 - ats_optimize
 **Total score:** 3/8 | **Tags:** hallucination | **Format OK:** Y | **Constraints OK:** N
 
 ### CV (before)
