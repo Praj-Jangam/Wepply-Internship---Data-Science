@@ -5,7 +5,7 @@ This rubric was designed for Week 4 to evaluate CV optimisation outputs across f
 
 ---
 
-## Scoring scale (0–2)
+## Scoring scale (0-2)
 
 ### A) Keyword coverage (ATS relevance) - 0 to 2
 Measures whether the output reflects **JD keywords that are supported by the CV**.
