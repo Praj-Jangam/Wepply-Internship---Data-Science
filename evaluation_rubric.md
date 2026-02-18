@@ -3,9 +3,6 @@
 This rubric was designed for Week 4 to evaluate CV optimisation outputs across four dimensions:
 **Keyword coverage (ATS relevance), Role relevance, Clarity, and Faithfulness (hallucination control)**.
 
-> Note: The accompanying `manual_eval_results.csv` in this repo is an **auto-assisted baseline scoring** computed from the Week 3 inference outputs (`eval_outputs_3.json`).  
-> You can keep it as-is for a benchmark, and optionally adjust scores manually if you want stricter judgement.
-
 ---
 
 ## Scoring scale (0–2)
