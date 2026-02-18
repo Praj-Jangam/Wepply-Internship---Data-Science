@@ -1,14 +1,14 @@
 # Week 4 Evaluation Rubric 
 
 This rubric was designed for Week 4 to evaluate CV optimisation outputs across four dimensions:
-**Keyword coverage (ATS relevance), Role relevance, Clarity, and Faithfulness (hallucination control)**.
+Keyword coverage (ATS relevance), Role relevance, Clarity, and Faithfulness (hallucination control).
 
 ---
 
 ## Scoring scale (0-2)
 
 ### A) Keyword coverage (ATS relevance) - 0 to 2
-Measures whether the output reflects **JD keywords that are supported by the CV**.
+Measures whether the output reflects JD keywords that are supported by the CV.
 - **2**: Covers most supported JD keywords (strong overlap) and uses them in a sensible way.
 - **1**: Covers some supported JD keywords but misses obvious ones or stays generic.
 - **0**: Misses most supported JD keywords or is largely irrelevant to the JD.
