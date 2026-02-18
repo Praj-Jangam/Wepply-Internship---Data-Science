@@ -7,7 +7,7 @@ This rubric was designed for Week 4 to evaluate CV optimisation outputs across f
 
 ## Scoring scale (0–2)
 
-### A) Keyword coverage (ATS relevance) — 0 to 2
+### A) Keyword coverage (ATS relevance) - 0 to 2
 Measures whether the output reflects **JD keywords that are supported by the CV**.
 - **2**: Covers most supported JD keywords (strong overlap) and uses them in a sensible way.
 - **1**: Covers some supported JD keywords but misses obvious ones or stays generic.
@@ -17,7 +17,7 @@ Measures whether the output reflects **JD keywords that are supported by the CV*
 
 ---
 
-### B) Role relevance (tailoring quality) — 0 to 2
+### B) Role relevance (tailoring quality) - 0 to 2
 Measures whether the output is clearly tailored to the target role.
 - **2**: Strong tailoring (language and suggestions match the role/level).
 - **1**: Some tailoring but still partly generic.
@@ -25,7 +25,7 @@ Measures whether the output is clearly tailored to the target role.
 
 ---
 
-### C) Clarity & readability — 0 to 2
+### C) Clarity & readability - 0 to 2
 Measures readability and structure.
 - **2**: Clear, concise, properly structured (lists are readable; avoids filler text).
 - **1**: Mostly readable but slightly repetitive or messy.
@@ -33,7 +33,7 @@ Measures readability and structure.
 
 ---
 
-### D) Faithfulness (hallucination control) — 0 to 2
+### D) Faithfulness (hallucination control) - 0 to 2
 Measures whether the output stays within CV facts.
 - **2**: No invented tools/metrics/achievements; respects “CV-only facts”.
 - **1**: Minor overreach (vague claims or a single unsupported tool/number).
@@ -48,11 +48,11 @@ Measures whether the output stays within CV facts.
 ---
 
 ## Suggested failure tags
-- `wrong_format` — JSON invalid or missing
-- `hallucination` — introduces unsupported tools/metrics/claims
-- `missed_keywords` — weak ATS keyword coverage (supported keywords missing)
-- `generic` — output is generic and not role/JD aligned
-- `ok` — no major issues detected
+- `wrong_format` - JSON invalid or missing
+- `hallucination` - introduces unsupported tools/metrics/claims
+- `missed_keywords` - weak ATS keyword coverage (supported keywords missing)
+- `generic` - output is generic and not role/JD aligned
+- `ok` - no major issues detected
 
 ---
 
